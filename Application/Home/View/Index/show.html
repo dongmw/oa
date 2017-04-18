@@ -1,0 +1,145 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1">
+    <title>Hello Amaze UI</title>
+
+    <!-- Set render engine for 360 browser -->
+    <meta name="renderer" content="webkit">
+
+    <!-- No Baidu Siteapp-->
+    <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+    <link rel="icon" type="image/png" href="__PUBLIC__/assets/i/favicon.png">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <link rel="icon" sizes="192x192" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+    <link rel="apple-touch-icon-precomposed" href="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <meta name="msapplication-TileImage" content="__PUBLIC__/assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileColor" content="#0e90d2">
+
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="__PUBLIC__/assets/css/app.css">
+    <style>
+        .am-panel-bd {
+            height: 300px;
+            overflow: auto;
+        }
+    </style>
+</head>
+<body>
+<div class="am-g">
+    <div class="am-u-sm-12">
+        <table class="am-table am-table-striped am-table-hover table-main">
+            <thead>
+            <tr>
+                <th class="table-id">ID</th>
+                <th class="table-name">姓名</th>
+                <th class="table-sex">性别</th>
+                <th class="table-location">职位</th>
+                <th class="table-age">年龄</th>
+                <th class="table-time">入职时间</th>
+                <th class="table-time">操作</th>
+            </tr>
+            </thead>
+            <tbody class="peoples">
+
+                <tr>
+                    <td>{{$user.id}}</td>
+                    <td>{{$user.username}}</td>
+                    <td>{{$user.sex}}</td>
+                    <td>{{$user.location}}</td>
+                    <td>{{$user.age}}</td>
+                    <td>{{$user.time}}</td>
+                    <td id="share"><button>分享</button></td>
+                </tr>
+
+            </tbody>
+        </table>
+        <hr/>
+
+    </div>
+
+</div>
+
+<script src="__PUBLIC__/assets/js/jquery.min.js"></script>
+<script src="__PUBLIC__/assets/js/amazeui.min.js"></script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" charset="utf-8">
+
+    wx.config(<php> echo $js->config(array('onMenuShareQQ', 'onMenuShareWeibo', 'getLocation', 'openLocation'), true) </php>);
+
+    wx.ready(function () {
+        wx.onMenuShareQQ({
+            title: '测试', // 分享标题
+            link: 'www.baidu.com', // 分享链接
+            desc: '2121121',
+            imgUrl: '', // 分享图标
+            success: function () {
+                alert('分享成功');
+            },
+            cancel: function () {
+                // 用户取消分享后执行的回调函数
+            }
+        });
+        //获取位置
+//        wx.getLocation({
+//            type: 'wgs84', // 默认为wgs84的gps坐标，如果要返回直接给openLocation用的火星坐标，可传入'gcj02'
+//            success: function (res) {
+//                var latitude = res.latitude; // 纬度，浮点数，范围为90 ~ -90
+//                var longitude = res.longitude; // 经度，浮点数，范围为180 ~ -180。
+//                var speed = res.speed; // 速度，以米/每秒计
+//                var accuracy = res.accuracy; // 位置精度
+//                appendText('经度：'+latitude+'，纬度：'+longitude);
+//                wx.openLocation(res);
+//            }
+//        });
+        //打开当前位置；
+        wx.getLocation({
+            type:'gcj02',
+            success:function(res){
+                //方法1
+                //wx.openLocation(res);
+                //方法2，详细制定内容
+                ////使用微信内置地图查看位置接口
+                wx.openLocation({
+                    latitude: res.latitude, // 纬度，浮点数，范围为90 ~ -90
+                    longitude: res.longitude, // 经度，浮点数，范围为180 ~ -180。
+                    name: '当前位置', // 位置名
+                    address: '当前地址', // 地址详情说明
+                    scale: 28, // 地图缩放级别,整形值,范围从1~28。默认为最大
+                    infoUrl: 'http://www.gongjuji.net' // 在查看位置界面底部显示的超链接,可点击跳转（测试好像不可用）
+                });
+            }
+        });
+
+        //打开位置
+//        wx.openLocation({
+//            latitude: 0, // 纬度，浮点数，范围为90 ~ -90
+//            longitude: 0, // 经度，浮点数，范围为180 ~ -180。
+//            name: '武汉', // 位置名
+//            address: '洪山区', // 地址详情说明
+//            scale: 1, // 地图缩放级别,整形值,范围从1~28。默认为最大
+//            infoUrl: '' // 在查看位置界面底部显示的超链接,可点击跳转
+//        });
+
+
+    })
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[ 2017-04-13T22:45:46+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.006000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.006000s ]
+NOTIC: [2] Declaration of Home\Controller\IndexController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') C:\laragon\www\tpwechat\Application\Home\Controller\IndexController.class.php 第 6 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\laragon\www\tpwechat\vendor\symfony\http-foundation\Response.php:1255) C:\laragon\www\tpwechat\ThinkPHP\Library\Think\Think.class.php 第 255 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at C:\laragon\www\tpwechat\vendor\symfony\http-foundation\Response.php:1255) C:\laragon\www\tpwechat\ThinkPHP\Library\Think\Think.class.php 第 256 行.
+

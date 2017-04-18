@@ -1,0 +1,1310 @@
+[ 2017-03-20T16:06:58+08:00 ] 127.0.0.1 /admin/user/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.002000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.002000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.074004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.074004s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T16:07:05+08:00 ] 127.0.0.1 /Admin/User/email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-03-20T16:07:12+08:00 ] 127.0.0.1 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `email` = '15057518924@163.com' LIMIT 1   [ RunTime:0.0150s ]
+SQL: INSERT INTO `reset_password` (`email`,`key`) VALUES ('15057518924@163.com','fdbf1ead74e5e1e6ba2aea6efdbb23a0') [ RunTime:0.0340s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.057003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T16:07:14+08:00 ] 127.0.0.1 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T22:14:58+08:00 ] 127.0.0.1 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE `email` = '15057518924@163.com' LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `reset_password` (`email`,`key`) VALUES ('15057518924@163.com','fdbf1ead74e5e1e6ba2aea6efdbb23a0') [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.048002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.015001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-20T22:15:01+08:00 ] 127.0.0.1 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-20T22:18:28+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0310s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Com\Email\PHPMailer.class.php 第 831 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-20T22:20:07+08:00 ] 127.0.0.1 /Admin/User/email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T22:25:01+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Com\Email\PHPMailer.class.php 第 831 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T22:40:26+08:00 ] 127.0.0.1 /Admin/Email/all_email.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user` WHERE ( id='1' ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-61.078493s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-61.065493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-61.079494s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-122.047981s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-122.036980s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-122.047981s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-183.066471s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-183.056471s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-183.063471s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-244.232969s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-244.221969s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-244.228969s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-305.252459s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-305.239459s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-305.253460s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-366.521964s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-366.509963s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-366.523964s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-427.569455s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-427.558455s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-427.565456s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-488.599946s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-488.589946s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-488.594946s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-549.676439s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-549.664439s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-549.677440s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-610.779934s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-610.767934s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-610.781935s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-671.784424s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-671.774424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-671.779424s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+
+[ 2017-03-20T22:40:26+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T22:52:01+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T22:54:40+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T22:55:05+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T22:58:16+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: to F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 41 行.
+
+[ 2017-03-20T22:58:17+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: to F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 41 行.
+
+[ 2017-03-20T22:59:44+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: to F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T23:00:47+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:00:59+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [2] Invalid argument supplied for foreach() F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 38 行.
+NOTIC: [8] Undefined variable: to F:\wamp64\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 46 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T23:01:02+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:04:17+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:04:19+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:04:20+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:04:28+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:04:50+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:04:51+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:04:52+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:04:52+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:10+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:28+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:29+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:30+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:30+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:30+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:30+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:30+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:31+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:05:32+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:05:58+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [2] trim() expects parameter 1 to be string, array given F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Com\Email\PHPMailer.class.php 第 831 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-03-20T23:06:01+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:07:41+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0010s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:07:44+08:00 ] 127.0.0.1 /admin/user/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0000s ]
+ERR: 非法操作:all_email
+
+[ 2017-03-20T23:07:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:09:36+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:15:34+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:15:37+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:15:37+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:15:38+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:16:03+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-63.160612s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-63.145611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-63.149612s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-128.205333s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-128.190332s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-128.208333s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-189.615845s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-189.600844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-189.608845s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-250.786344s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-250.771343s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-250.777343s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-315.695057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-315.681055s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-315.686056s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-376.713547s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-376.699546s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-376.704546s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-438.112058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-438.095057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-438.108058s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-499.254556s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-499.238554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-499.252555s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-562.752187s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-562.735186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-562.751187s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-628.668958s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-628.651956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-628.667957s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-713.039783s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040002s ]
+INFO: [ view_parse ] --END-- [ RunTime:-713.019782s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-713.057784s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0000s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:28:24+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:29:17+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:29:29+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-20T23:29:32+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-20T23:41:38+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-63.334623s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-63.325622s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-63.334622s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-131.436518s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-131.426517s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-131.439518s ]
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-194.940150s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-194.930149s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-194.937150s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-257.923753s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-257.915752s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-257.919752s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-321.360381s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-321.349380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-321.358380s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-384.475991s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-384.467990s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-384.472990s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-448.075629s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-448.065628s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-448.075628s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-512.686324s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-512.677323s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-512.683324s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-575.890939s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-575.880938s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-575.893939s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-639.686588s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-639.676587s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-639.688588s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+NOTIC: [8] Undefined index: HTTP_REFERER F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\Controller.class.php 第 321 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-702.983209s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:-702.973207s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-702.985208s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 103 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 104 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php:107) F:\wamp64\www\ThinkPhpWechat\ThinkPHP\Library\Think\View.class.php 第 105 行.
+
+[ 2017-03-20T23:41:38+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+

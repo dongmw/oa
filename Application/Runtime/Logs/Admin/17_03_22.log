@@ -1,0 +1,1036 @@
+[ 2017-03-22T00:45:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106279') [ RunTime:0.0710s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106279') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106279') [ RunTime:0.0200s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106339') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106339') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106339') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106399') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106399') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106399') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106459') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106459') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106459') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106519') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106519') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106519') [ RunTime:0.0090s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106579') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106579') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106579') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106639') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106639') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106639') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106699') [ RunTime:0.0190s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106699') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106699') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106759') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106759') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106759') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106819') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106819') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106819') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106879') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106879') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106879') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106939') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106939') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106939') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490106999') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490106999') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490106999') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107059') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107059') [ RunTime:0.0360s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107059') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107119') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107119') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107119') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107179') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107179') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107179') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107239') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107239') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107239') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107299') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107299') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107299') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107359') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107359') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107359') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107419') [ RunTime:0.3090s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107419') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107419') [ RunTime:0.0120s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107479') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107479') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107479') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107539') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107539') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107539') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107599') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107599') [ RunTime:0.0290s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107599') [ RunTime:0.0180s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107659') [ RunTime:0.3090s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107660') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107660') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107720') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107720') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107720') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107780') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107780') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107780') [ RunTime:0.0140s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107840') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107840') [ RunTime:0.3450s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107840') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107900') [ RunTime:1.0651s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107901') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107901') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490107961') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490107961') [ RunTime:0.0240s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490107961') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108021') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108021') [ RunTime:0.0440s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108021') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108081') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108081') [ RunTime:0.3290s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108082') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108142') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108142') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108142') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108202') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108202') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108202') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108262') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108262') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108262') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108322') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108322') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108322') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108382') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108382') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108382') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108442') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108442') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108442') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108502') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108502') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108502') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108562') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108562') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108562') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108622') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108622') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108622') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108682') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108682') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108682') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108742') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108742') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108742') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108802') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108802') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108802') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108862') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108862') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108862') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108922') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108922') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108922') [ RunTime:0.3110s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490108982') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490108982') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490108982') [ RunTime:0.3340s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109042') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109042') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109042') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109102') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109102') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109102') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109163') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109163') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109163') [ RunTime:0.3180s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109223') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109223') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109223') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109283') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109283') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109283') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109343') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109343') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109343') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109403') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109403') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109403') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109463') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109463') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109463') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109523') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109523') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109523') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109583') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109583') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109583') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109643') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109643') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109643') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109703') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109703') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109703') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109763') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109763') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109763') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109823') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109823') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109823') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109883') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109883') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109883') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490109943') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490109943') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490109943') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110003') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110003') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110003') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110063') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110063') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110063') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110123') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110123') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110123') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110183') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110183') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110183') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110243') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110243') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110243') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110303') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110303') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110303') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110363') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110363') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110363') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110423') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110423') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110423') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110483') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110483') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110483') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110543') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110543') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110543') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110603') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110603') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110603') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110663') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110663') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110663') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110723') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110723') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110723') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110783') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110783') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110783') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110843') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110843') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110843') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110903') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110903') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110903') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490110963') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490110963') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490110963') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111023') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111023') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111023') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111083') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111083') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111083') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111143') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111143') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111143') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111203') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111203') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111203') [ RunTime:0.3270s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111264') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111264') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111264') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111324') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111324') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111324') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111384') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111384') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111384') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111444') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111444') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111444') [ RunTime:0.3220s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111504') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111504') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111504') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111564') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111564') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111564') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111624') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111624') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111624') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111684') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111684') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111684') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111744') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111744') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111744') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111804') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111804') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111804') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111864') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111864') [ RunTime:0.3200s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111864') [ RunTime:0.0150s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111924') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111924') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111924') [ RunTime:0.3180s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490111985') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490111985') [ RunTime:0.0830s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490111985') [ RunTime:0.0230s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112045') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112045') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112045') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112105') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112105') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112105') [ RunTime:0.3080s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112165') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112165') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112165') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112225') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112225') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112225') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112285') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112285') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112285') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112345') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112345') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112345') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112405') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112405') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112405') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112465') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112465') [ RunTime:0.0270s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112465') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112525') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112525') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112525') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112585') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112585') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112585') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112645') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112645') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112645') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112705') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112705') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112705') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112765') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112765') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112765') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112825') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112825') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112825') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112885') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112885') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112885') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490112945') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490112945') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490112945') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113005') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113005') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113005') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113065') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113065') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113065') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113125') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113125') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113125') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113185') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113185') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113185') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113245') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113245') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113245') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113305') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113305') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113305') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113365') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113365') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113365') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113425') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113425') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113425') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113485') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113485') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113485') [ RunTime:0.3240s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113546') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113546') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113546') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113606') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113606') [ RunTime:0.3170s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113606') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113666') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113666') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113666') [ RunTime:0.3120s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113726') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113726') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113726') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113786') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113786') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113786') [ RunTime:0.3240s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113847') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113847') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113847') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113907') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113907') [ RunTime:0.3250s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113907') [ RunTime:0.0110s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490113967') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490113967') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490113967') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114027') [ RunTime:0.0070s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114027') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114027') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114087') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114087') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114087') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114147') [ RunTime:0.0060s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114147') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114147') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114207') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114207') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114207') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114267') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114267') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114267') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114327') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114327') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114327') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114387') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114387') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114387') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114447') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114447') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114447') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114507') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114507') [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114507') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114567') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114567') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114567') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114627') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114627') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114627') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114687') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114687') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw91@126.com','1490114687') [ RunTime:0.3200s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('15057518924@163.com','1490114748') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`,`time`) VALUES ('dongmw1991@aliyun.com','1490114748') [ RunTime:0.0020s ]
+
+[ 2017-03-22T00:45:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T11:44:27+08:00 ] 127.0.0.1 /Admin/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `depart` [ RunTime:0.0220s ]
+SQL: SHOW COLUMNS FROM `reset_password` [ RunTime:0.0080s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.041003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.041003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-03-22T11:44:33+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-22T11:44:36+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-22T11:45:01+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+
+[ 2017-03-22T11:45:24+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+
+[ 2017-03-22T11:47:48+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154468','15057518924@163.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154468','dongmw1991@aliyun.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154468','dongmw91@126.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T11:50:40+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154640','15057518924@163.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154640','dongmw1991@aliyun.com') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154640','dongmw91@126.com') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T11:51:36+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0000s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154696','15057518924@163.com') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154696','dongmw1991@aliyun.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154696','dongmw91@126.com') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T11:55:03+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user`  [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154903','15057518924@163.com') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154903','dongmw1991@aliyun.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490154903','dongmw91@126.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T12:09:15+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0010s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155755','15057518924@163.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155755','dongmw1991@aliyun.com') [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155755','dongmw91@126.com') [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-03-22T12:12:15+08:00 ] 127.0.0.1 /Admin/Email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0010s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0020s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155935','15057518924@163.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155935','dongmw1991@aliyun.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`time`,`email`) VALUES ('1490155935','dongmw91@126.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:13:12+08:00 ] 127.0.0.1 /admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.003000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.003000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:13:25+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] require(Predis/Autoloader.php): failed to open stream: No such file or directory C:\laragon\www\ThinkPhpWechat\Application\Admin\Controller\EmailController.class.php 第 11 行.
+
+[ 2017-03-22T16:15:23+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: Class 'Redis' not found
+
+[ 2017-03-22T16:16:26+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:17:43+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:45+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:46+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:47+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:47+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:47+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:48+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:51+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:51+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:51+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:21:53+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: SQLSTATE[HY000] [1049] Unknown database 'oa'
+
+[ 2017-03-22T16:26:44+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0220s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-22T16:27:50+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0150s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-22T16:30:43+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0190s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0030s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:32:30+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0170s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0170s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:32:31+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0180s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0140s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:32:31+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0190s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0180s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0050s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-03-22T16:32:44+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0160s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-03-22T16:32:49+08:00 ] 127.0.0.1 /admin/email/all_email
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0140s ]
+SQL: SELECT `email` FROM `user`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `email` [ RunTime:0.0160s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('815091495@qq.com') [ RunTime:0.0040s ]
+SQL: INSERT INTO `email` (`email`) VALUES ('15927693861@163.com') [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

@@ -1,0 +1,107 @@
+<extend name="./Application/Admin/View/Layouts/application.html" />
+<block name="content">
+    <div class="admin-content-body">
+        <div class="am-cf am-padding am-padding-bottom-0">
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">员工信息详情</strong> /
+                <small>Person Detail News</small>
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-6">
+                <div class="am-btn-toolbar">
+                    <div class="am-btn-group am-btn-group-xs">
+                        <a href="{{:U('User/add')}}" class="am-btn am-btn-default"><span
+                                class="am-icon-plus"></span> 新增
+                        </a>
+                        <a href="{{:U('User/export')}}" class="am-btn am-btn-default"><span
+                                class="am-icon-plus"></span> 导出excel
+                        </a>
+
+                        <a href="{{:U('User/see')}}" class="am-btn am-btn-default"><span
+                                class="am-icon-plus"></span> 预览
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="am-g">
+            <div class="am-u-sm-12 am-u-md-12">
+                <form class="am-form-inline" role="form"  method="get">
+                    <div class="am-form-group">
+                        <input type="text" name="username" class="am-form-field am-input-sm"  value="">
+                    </div>
+                    <button type="submit" class="am-btn am-btn-default am-btn-sm">查询</button>
+                </form>
+
+            </div>
+        </div>
+
+
+
+        <div class="am-g">
+            <div class="am-u-sm-12">
+                <form class="am-form">
+                    <table class="am-table am-table-striped am-table-hover table-main">
+                        <thead>
+                        <tr>
+                            <th class="table-id">编号</th>
+                            <th class="table-name">姓名</th>
+                            <th class="table-depart">所属部门</th>
+                            <th class="table-sex">性别</th>
+                            <th class="table-age">年龄</th>
+                            <th class="table-time">入职时间</th>
+                            <th class="table-locatiion">职务</th>
+                            <th class="table-do">操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="users" id="user">
+                            <tr data-id="{{$user.id}}" id="{{$user.id}}" class="parent">
+                                <td class="table-id">{{$user.id}}</td>
+                                <td class="table-name">{{$user.username}}</td>
+                                <td class="table-depart">{{$user.departs}}</td>
+                                <td class="table-sex">{{$user.sex}}</td>
+                                <td class="table-age">{{$user.age}}</td>
+                                <td class="table-time">{{$user.time}}</td>
+                                <td class="table-location">{{$user.location}}</td>
+                                <td>
+                                    <div class="am-btn-toolbar">
+                                        <div class="am-btn-group am-btn-group-xs">
+                                            <a href="{{:U('User/edit',array('id'=>$user['id']))}}"
+                                               class="am-btn am-btn-default am-btn-xs am-text-secondary"><span
+                                                    class="am-icon-pencil-square-o"></span> 编辑
+                                            </a>
+                                            <a href="{{:U('User/delete',array('id'=>$user['id']))}}" data-method="delete"
+                                               data-token="{{csrf_token()}}" data-confirm="确定要删除吗?"
+                                               class="am-btn am-btn-default am-btn-xs am-text-danger am-hide-sm-only">
+                                                <span class="am-icon-trash-o"></span> 删除
+                                            </a>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                        </volist>
+
+
+                        </tbody>
+                    </table>
+                    <div class="am-cf">
+                        <ul class="am-pagination am-pagination-centered">
+                            <li >{{$page}}</li>
+                        </ul>
+                        <div class="am-fr">
+                        </div>
+                    </div>
+                    <hr/>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+</block>

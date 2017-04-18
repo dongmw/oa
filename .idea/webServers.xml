@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ddb17eb6-4444-45e3-a51a-6ee616cfd287" name="thinkphpwechat" url="http://47.52.18.122">
+        <fileTransfer host="47.52.18.122" port="22" privateKey="C:\Users\Administrator\Desktop\id_rsa1" rootFolder="/var/www/team1/tpwechat" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

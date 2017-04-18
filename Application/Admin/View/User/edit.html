@@ -1,0 +1,124 @@
+<extend name="./Application/Admin/View/Layouts/application.html"/>
+<block name="content">
+
+
+    <div class="am-cf am-padding">
+        <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">新增新员工</strong> /
+            <small>Create A New Person</small>
+        </div>
+    </div>
+
+
+    <div class="am-g">
+        <div class="am-u-sm-12 am-u-md-12">
+
+            <div class="am-tab-panel">
+                <form class="am-form" action="{{:U('edit')}}" method="post" data-am-validator>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            <input type="hidden" name="id" value="{{$user.id}}">
+                            姓名
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4">
+                            <input type="text" class="am-input-sm" name="username" value="{{$user.username}}">
+                        </div>
+                        <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                    </div>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            所属部门
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4 am-u-end col-end">
+
+                            <select multiple data-am-selected="{btnWidth: '100%',  btnStyle: 'secondary', btnSize: 'sm', maxHeight: 360, searchBox: 1}"
+                                    name="depart_id[]">
+                                <volist name="departs" id="depart">
+                                    <optgroup label="{{$depart.name}}">
+                                        <volist name="depart.children" id="d">
+                                            <option value="{{$d.id}}"> &nbsp;&nbsp;&nbsp;&nbsp;{{$d.name}}</option>
+                                        </volist>
+                                    </optgroup>
+                                </volist>
+
+                            </select>
+
+                        </div>
+                    </div>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            性别
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4">
+                            <input type="text" class="am-input-sm" name="sex" value="{{$user.sex}}">
+                        </div>
+                        <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                    </div>
+
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            照片
+                        </div>
+
+
+                        <div class="am-u-sm-8 am-u-md-8 am-u-end col-end">
+                            <div class="am-form-group am-form-file new_thumb">
+                                <button type="button" class="am-btn am-btn-secondary am-btn-sm">
+                                    <i class="am-icon-cloud-upload" id="loading"></i> 上传新的缩略图
+                                </button>
+                                <input type="file" id="thumb_upload">
+                                <input type="hidden" name="thumb">
+                            </div>
+
+
+                            <hr data-am-widget="divider" style="" class="am-divider am-divider-dashed"/>
+
+                            <div>
+                                <img src="" id="img_show" style="max-height: 200px;">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            年龄
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4">
+                            <input type="text" class="am-input-sm" name="age" value="{{$user.age}}">
+                        </div>
+                        <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                    </div>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            入职时间
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4">
+                            <input type="text" class="am-input-sm" data-am-datepicker name="time" value="{{$user.time}}">
+                        </div>
+                        <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                    </div>
+
+                    <div class="am-g am-margin-top">
+                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                            职务
+                        </div>
+                        <div class="am-u-sm-8 am-u-md-4">
+                            <input type="text" class="am-input-sm" name="location" value="{{$user.location}}">
+                        </div>
+                        <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                    </div>
+
+                    <div class="am-margin">
+                        <button type="submit" class="am-btn am-btn-primary am-radius">提交保存</button>
+                    </div>
+                </form>
+
+
+            </div>
+        </div>
+    </div>
+</block>
